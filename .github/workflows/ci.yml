@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pnpm install --frozen-lockfile
+      - name: Kontent validatsiyasi (sxema, sinf chegaralari, javoblar orakuli, ishora sizishi)
+        run: pnpm content:check
+      - name: Tiplar
+        run: pnpm typecheck
+      - name: Unit, API, DB testlari + eski paket testlari
+        run: pnpm test
+      - name: Web build
+        run: pnpm build:web
+        env:
+          EXPO_PUBLIC_DEMO_CONTENT: 'true'
+      - name: Playwright brauzeri
+        run: pnpm --filter bilimjon exec playwright install --with-deps chromium
+      - name: E2E + accessibility (axe)
+        run: pnpm e2e
+      - name: Sirlar commit qilinmaganini tekshirish
+        run: |
+          ! git grep -nE '(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|-----BEGIN (RSA|EC|OPENSSH) PRIVATE KEY)' -- ':!pnpm-lock.yaml'

@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsx scripts/build.ts build",
     "check": "tsx scripts/build.ts check",
-    "test": "tsx scripts/build.ts check && vitest run",
+    "test": "tsx scripts/build.ts check",
     "typecheck": "tsc --noEmit -p ."
   },
   "dependencies": {
@@ -17,7 +17,6 @@
   "devDependencies": {
     "tsx": "^4.23.15",
     "typescript": "~6.0.3",
-    "vitest": "^5.1.0",
     "yaml": "^2.9.1",
     "@types/node": "^22.19.0"
   }

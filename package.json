@@ -4,7 +4,9 @@
   "version": "0.3.0",
   "description": "BILIM AI — Bilimjon: 1–4-sinf o'quvchilari va ota-onalar uchun xavfsiz o'quv platformasi (web + iOS + Android)",
   "packageManager": "pnpm@10.30.3",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "content:build": "pnpm --filter @bilim/content build",
     "content:check": "pnpm --filter @bilim/content check",
@@ -16,6 +18,10 @@
     "web": "pnpm --filter bilimjon web",
     "build:web": "pnpm --filter bilimjon build:web",
     "e2e": "pnpm --filter bilimjon e2e",
-    "api:dev": "pnpm --filter @bilim/api dev"
+    "api:dev": "pnpm --filter @bilim/api dev",
+    "vercel-build": "node scripts/vercel-build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
   }
 }
