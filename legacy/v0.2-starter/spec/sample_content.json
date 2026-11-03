@@ -1,0 +1,16 @@
+{
+  "warning": "ILLUSTRATIVE ONLY — NOT OFFICIAL 2026–2027 CURRICULUM",
+  "academic_year": "UNVERIFIED",
+  "grade": 2,
+  "subject": "Matematika",
+  "lesson_id": "demo-equal-groups",
+  "objective": "Equal grouping demonstration (illustrative)",
+  "exercise": {
+    "question": "12 ta olmani 3 bolaga teng bo‘lsak, har biriga nechta?",
+    "answer": 4,
+    "hint": "12 ta olmani bittadan 3 guruhga ajratib sanang.",
+    "transfer_question": "15 ta olmani 3 bolaga teng bo‘lsak, har biriga nechta?",
+    "transfer_answer": 5
+  },
+  "review_status": "DRAFT"
+}

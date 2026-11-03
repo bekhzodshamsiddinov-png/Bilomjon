@@ -1,0 +1,68 @@
+openapi: 3.1.0
+info:
+  title: BILIM AI proposed MVP API
+  version: 0.2.0
+  description: Design contract ONLY; not implemented. All responses are fictitious until backend exists.
+servers:
+  - url: http://localhost:8000
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200': {description: OK}
+  /v1/catalog/grades/{grade}/subjects:
+    get:
+      summary: Published subjects for verified school language and academic year
+      parameters:
+        - {in: path, name: grade, required: true, schema: {type: integer, minimum: 1, maximum: 4}}
+        - {in: query, name: academic_year, required: true, schema: {type: string}}
+        - {in: query, name: school_language, required: true, schema: {type: string}}
+      responses:
+        '200':
+          description: Published-only catalog
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  subjects: {type: array, items: {type: object}}
+  /v1/lessons/{lesson_id}:
+    get:
+      summary: Reviewed and published lesson only
+      parameters:
+        - {in: path, name: lesson_id, required: true, schema: {type: string, format: uuid}}
+      responses:
+        '200': {description: Safe approved lesson content}
+        '404': {description: Not approved or not found}
+  /v1/demo/exercises/check:
+    post:
+      summary: Deterministic demo answer checker (no child data)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [exercise_id, answer]
+              properties:
+                exercise_id: {type: string}
+                answer: {type: string}
+      responses:
+        '200': {description: Correct/incorrect and approved hint; no personal tracking}
+  /v1/demo/tutor/respond:
+    post:
+      summary: Bounded scripted tutor; NOT production AI
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [lesson_id, state, learner_input]
+              properties:
+                lesson_id: {type: string}
+                state: {type: string}
+                learner_input: {type: string, maxLength: 500}
+      responses:
+        '200': {description: Safe pre-reviewed hint and next step}

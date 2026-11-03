@@ -1,0 +1,2 @@
+# BILIM AI prototype
+Open `index.html` in a modern browser; no installation required. Works offline except browser-dependent voice features. Select a grade, open a subject and maths or reading sample, speak or type to Bilimjon, and explore parent mode. This is a demonstration with preset replies and sample learning progress, NOT a live AI model, verified curriculum, or production application. Never enter actual personal information or upload children's materials into this demo.
