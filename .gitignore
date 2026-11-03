@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.vercel/
+*.log
+.env
+.env.*
+!.env.example
+coverage/
+playwright-report/
+test-results/
+ios/
+android/
+.DS_Store

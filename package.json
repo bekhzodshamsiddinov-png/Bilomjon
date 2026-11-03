@@ -1,0 +1,21 @@
+{
+  "name": "bilim-ai",
+  "private": true,
+  "version": "0.3.0",
+  "description": "BILIM AI — Bilimjon: 1–4-sinf o'quvchilari va ota-onalar uchun xavfsiz o'quv platformasi (web + iOS + Android)",
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "content:build": "pnpm --filter @bilim/content build",
+    "content:check": "pnpm --filter @bilim/content check",
+    "test": "pnpm -r --if-present test && pnpm test:legacy",
+    "test:legacy": "python3 -m unittest discover -s legacy/v0.2-starter/tests -v",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "pnpm -r --if-present lint",
+    "dev": "pnpm --filter bilimjon start",
+    "web": "pnpm --filter bilimjon web",
+    "build:web": "pnpm --filter bilimjon build:web",
+    "e2e": "pnpm --filter bilimjon e2e",
+    "api:dev": "pnpm --filter @bilim/api dev"
+  }
+}
