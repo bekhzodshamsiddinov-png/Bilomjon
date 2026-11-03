@@ -1,0 +1,146 @@
+# Mavzu bo‘yicha yakuniy dars: ko‘paytirish jadvali — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-116y
+map_id: mat-2-3-116y
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: 'Mavzu bo‘yicha yakuniy dars: ko‘paytirish jadvali'
+minutes: 15
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: 2–9 sonlarining ko‘paytirish va bo‘lish jadvalini hamda ularning bog‘liqligini mustaqil qo‘llash.
+success_criteria:
+- Jadval doirasidagi ko‘paytirish va bo‘lish misollarini yechadi.
+- Ko‘paytirishdan bo‘lishni keltirib chiqaradi.
+- So‘zli masalada amalni to‘g‘ri tanlaydi.
+prior_knowledge:
+- 98–116-darslar
+vocabulary:
+- ko‘paytirish jadvali
+- teskari amal
+explanation:
+  intro: Butun chorak davomida o‘rganganlarimizni takrorlaymiz.
+  steps:
+  - Ko‘paytirish — teng guruhlarni birlashtirish; bo‘lish — teng tarqatish.
+  - 'Har bir ko‘paytirishdan ikkita bo‘lish chiqadi: 7 × 8 = 56 → 56 : 7 = 8, 56 : 8 = 7.'
+  - Unutilgan ko‘paytmani yaqin ko‘paytmadan topamiz.
+  - Javobni teskari amal bilan tekshiramiz.
+  visual:
+    type: array
+    a: 7
+    b: 8
+    item: olma
+worked_example:
+  prompt: 63 ta yong‘oqni 7 ta likopchaga teng qilib qo‘yishdi. Har bir likopchada nechta yong‘oq?
+  steps:
+  - 'Teng tarqatish — bo‘lish: 63 : 7.'
+  - '? × 7 = 63 — bu 9.'
+  - 'Javob: har bir likopchada 9 ta yong‘oq.'
+  answer: 9
+misconceptions:
+- code: COUNTING_SLIP
+  description: 7, 8, 9 jadvallarida kichik xatolar.
+  remedy: Qiyin ko‘paytmalar ro‘yxatini tuzib, har kuni 2–3 tasini takrorlash.
+- code: WRONG_DIRECTION
+  description: Masalada amalni noto‘g‘ri tanlaydi.
+  remedy: Masalani rasm bilan chizish.
+diagnostic:
+  kind: table_mixed
+  params:
+    factors:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 1
+    - 10
+practice:
+- kind: table_mixed
+  params:
+    factors:
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 1
+    - 10
+  weight: 2
+- kind: mul_div_link
+  params:
+    factor:
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 9
+  weight: 1
+- kind: missing_factor
+  params:
+    factor:
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 10
+  weight: 1
+transfer:
+- kind: word_share
+  params:
+    divisor:
+    - 6
+    - 7
+    - 8
+    - 9
+    quotient:
+    - 2
+    - 10
+- kind: times_less
+  params:
+    k:
+    - 6
+    - 7
+    - 8
+    - 9
+    base:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - 'Bu chorak yakuni: farzandingiz butun ko‘paytirish jadvali va bo‘lishni bilishi kerak.'
+  - Hisobotdagi “mashq kerak” deb belgilangan mavzularga qayting — har biriga 10 daqiqa yetarli.
+  teach_child:
+  - minutes: 1–3
+    action: '“Jadval bingo”: 3×3 katak chizing, ko‘paytmalarni yozing; siz misol aytasiz, u javobni topib belgilaydi.'
+  - minutes: 4–7
+    action: Uydagi vaziyatdan 2 ta masala tuzing (dasturxon, bozor, o‘yinchoqlar).
+  - minutes: 8–10
+    action: Qaysi ko‘paytmalar hali qiyin ekanini birga yozib, muzlatgichga yopishtiring.
+  materials:
+  - qog‘oz va qalam
+  watch_for:
+  - 6–9 jadvallaridagi qiyinchilik
+  - Bo‘lishni ko‘paytirish bilan tekshirmaslik

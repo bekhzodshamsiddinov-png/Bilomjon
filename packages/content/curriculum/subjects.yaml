@@ -1,0 +1,14 @@
+# Boshlang'ich sinf fanlari katalogi. Fanlarning sinflar bo'yicha taqsimoti 2026–2027 o'quv rejasi
+# bilan TASDIQLANMAGAN (docs/CURRICULUM_VERIFICATION.md). Hozircha faqat matematika tayyorlanmoqda.
+subjects:
+  - { code: matematika, title: Matematika, emoji: "➗", grades: [1, 2, 3, 4], content_state: lessons_draft, status: DRAFT, note: "1–4-sinf mavzular xaritasi; 2-sinf 3-chorak to'liq darslar (qoralama)." }
+  - { code: ona-tili, title: Ona tili, emoji: "📝", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: oqish-savodxonligi, title: O‘qish savodxonligi, emoji: "📖", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: ingliz-tili, title: Ingliz tili, emoji: "🗣️", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT, note: "Qaysi sinfdan boshlanishi o'quv rejasi bilan tekshirilishi kerak." }
+  - { code: tabiiy-fanlar, title: Tabiiy fanlar, emoji: "🌿", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: tarbiya, title: Tarbiya, emoji: "💛", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: informatika, title: Informatika va AT, emoji: "💻", grades: [3, 4], content_state: planned, status: DRAFT, note: "Sinflar taxminiy — tasdiqlanishi kerak." }
+  - { code: tasviriy-sanat, title: Tasviriy san’at, emoji: "🎨", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: musiqa, title: Musiqa, emoji: "🎵", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: texnologiya, title: Texnologiya, emoji: "🛠️", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }
+  - { code: jismoniy-tarbiya, title: Jismoniy tarbiya, emoji: "🏃", grades: [1, 2, 3, 4], content_state: planned, status: DRAFT }

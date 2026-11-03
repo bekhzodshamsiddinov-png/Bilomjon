@@ -1,0 +1,24 @@
+{
+  "name": "@bilim/content",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsx scripts/build.ts build",
+    "check": "tsx scripts/build.ts check",
+    "test": "tsx scripts/build.ts check && vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@bilim/core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "vitest": "^5.1.0",
+    "yaml": "^2.9.1",
+    "@types/node": "^22.19.0"
+  }
+}

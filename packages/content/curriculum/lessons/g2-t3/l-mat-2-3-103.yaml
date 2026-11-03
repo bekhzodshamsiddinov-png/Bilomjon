@@ -1,0 +1,136 @@
+# Sonni bir necha marta orttirish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-103
+map_id: mat-2-3-103
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: Sonni bir necha marta orttirish
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: “… marta ko‘p” iborasini ko‘paytirish bilan bog‘lash va sonni bir necha marta orttirishga doir masalalarni yechish.
+success_criteria:
+- “3 marta ko‘p” — sonni 3 marta takrorlash, ya’ni 3 ga ko‘paytirish ekanini tushuntira oladi.
+- “… ta ko‘p” (qo‘shish) va “… marta ko‘p” (ko‘paytirish)ni farqlaydi.
+- Masalani to‘g‘ri amal bilan yechadi va javobini izohlaydi.
+prior_knowledge:
+- 2, 3, 4, 5 ning ko‘paytirish jadvali
+- “… ta ko‘p” masalalari (qo‘shish)
+vocabulary:
+- marta ko‘p
+- orttirish
+- ta ko‘p
+explanation:
+  intro: “Marta ko‘p” — bir xil guruh bir necha marta takrorlanadi degani.
+  steps:
+  - Qutida 2 ta olma bor. Savatda undan 3 marta ko‘p olma bor.
+  - 'Demak, savatda 2 tadan bo‘lgan 3 ta guruh bor: 2 + 2 + 2.'
+  - 'Buni ko‘paytirish bilan yozamiz: 2 × 3 = 6. Savatda 6 ta olma.'
+  - 'Diqqat: “3 ta ko‘p” bo‘lsa — qo‘shamiz (2 + 3), “3 marta ko‘p” bo‘lsa — ko‘paytiramiz (2 × 3).'
+  visual:
+    type: times
+    a: 2
+    b: 3
+    item: olma
+worked_example:
+  prompt: Qutida 4 ta qalam bor. Xaltada undan 3 marta ko‘p qalam bor. Xaltada nechta qalam bor?
+  steps:
+  - “3 marta ko‘p” — 4 tadan 3 ta guruh.
+  - 4 × 3 = 12.
+  - 'Javob: xaltada 12 ta qalam.'
+  answer: 12
+misconceptions:
+- code: ADD_INSTEAD_OF_TIMES
+  description: “3 marta ko‘p”ni “3 ta ko‘p” deb tushunib, 4 + 3 = 7 deb hisoblaydi.
+  remedy: Ikkala iborani yonma-yon buyumlar bilan ko‘rsatib solishtiring.
+- code: WRONG_DIRECTION
+  description: “Ko‘p” bo‘lsa ham bo‘lib yuboradi.
+  remedy: “Ko‘p bo‘lsa — natija kattaroq bo‘lishi kerak” deb tekshirishni o‘rgating.
+diagnostic:
+  kind: mul_fact
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    - 5
+    other:
+    - 2
+    - 5
+practice:
+- kind: times_more
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 9
+  weight: 3
+- kind: word_groups
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    - 5
+    other:
+    - 2
+    - 9
+  weight: 1
+transfer:
+- kind: times_more
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    base:
+    - 3
+    - 10
+- kind: times_more
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - '“… marta ko‘p” — ko‘paytirish: 4 ning 3 marta ko‘pi = 4 × 3 = 12.'
+  - '“… ta ko‘p” — qo‘shish: 4 dan 3 ta ko‘p = 4 + 3 = 7. Bolalar ko‘pincha shu ikkisini adashtiradi.'
+  - Eng yaxshi usul — ikkalasini buyumlar bilan yonma-yon ko‘rsatish.
+  teach_child:
+  - minutes: 1–2
+    action: Stolga 3 ta qoshiq qo‘ying. “Menda 3 ta. Senda undan 2 marta ko‘p bo‘lsin” deb, farzandingizga 3 tadan 2 guruh tuzdiring.
+  - minutes: 3–5
+    action: Endi “2 ta ko‘p” deb ayting — u 3 ta qoshiqqa yana 2 ta qo‘shsin. Ikkala natijani solishtiring.
+  - minutes: 6–8
+    action: “Marta ko‘p” va “ta ko‘p” so‘zlarini aralashtirib 3–4 ta savol bering; har safar avval qaysi amal ekanini aytsin.
+  - minutes: 9–10
+    action: O‘zi “marta ko‘p” so‘zi bor bitta masala tuzib, yechib bersin.
+  materials:
+  - 20 tagacha qoshiq, qalam yoki boshqa buyum
+  watch_for:
+  - “marta” va “ta” so‘zlarini adashtirishi
+  - Javobni tekshirmasligi

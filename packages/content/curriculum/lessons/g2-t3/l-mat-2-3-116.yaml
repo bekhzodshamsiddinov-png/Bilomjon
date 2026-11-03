@@ -1,0 +1,171 @@
+# Masalalar yechish: ko‘paytirish va bo‘lish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-116
+map_id: mat-2-3-116
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: 'Masalalar yechish: ko‘paytirish va bo‘lish'
+minutes: 15
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: So‘zli masalada kerakli amalni (ko‘paytirish yoki bo‘lish) tanlash va yechimni izohlash.
+success_criteria:
+- Masalada nima berilgan va nima so‘ralayotganini aytadi.
+- Teng guruhlar, teng tarqatish, “marta ko‘p/kam” vaziyatlarini taniydi.
+- Javobini teskari amal bilan tekshiradi.
+prior_knowledge:
+- Ko‘paytirish jadvali
+- “Marta ko‘p/kam” masalalari
+vocabulary:
+- shart
+- savol
+- yechim
+- javob
+explanation:
+  intro: Masala yechishning 4 qadami bor.
+  steps:
+  - '1) O‘qi va tasavvur qil: nima haqida gap ketyapti?'
+  - 2) Nima ma’lum va nima so‘ralayapti?
+  - '3) Amalni tanla: teng guruhlarni birlashtirish — ko‘paytirish; teng tarqatish — bo‘lish.'
+  - 4) Hisobla va teskari amal bilan tekshir.
+  visual:
+    type: groups
+    a: 4
+    b: 6
+    item: tuxum
+worked_example:
+  prompt: Bitta qutiga 6 ta tuxum sig‘adi. 4 ta qutida nechta tuxum bor?
+  steps:
+  - 'Ma’lum: 4 ta quti, har birida 6 tadan. So‘ralayapti: hammasi.'
+  - 'Teng guruhlarni birlashtiramiz — ko‘paytirish: 4 × 6 = 24.'
+  - 'Tekshiramiz: 24 : 4 = 6. Javob: 24 ta tuxum.'
+  answer: 24
+misconceptions:
+- code: WRONG_DIRECTION
+  description: Masaladagi sonlarni o‘ylamasdan ko‘paytiradi yoki bo‘ladi.
+  remedy: Masalani rasm bilan chizdirib, keyin amal tanlash.
+- code: ADD_INSTEAD_OF_MUL
+  description: Sonlarni shunchaki qo‘shib yuboradi.
+  remedy: “Bir xil guruhlar bormi?” degan savolni har safar berish.
+diagnostic:
+  kind: word_groups
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    - 5
+    other:
+    - 2
+    - 5
+practice:
+- kind: word_groups
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 9
+  weight: 1
+- kind: word_share
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    quotient:
+    - 2
+    - 9
+  weight: 1
+- kind: times_more
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    base:
+    - 2
+    - 9
+  weight: 1
+- kind: times_less
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    base:
+    - 2
+    - 9
+  weight: 1
+transfer:
+- kind: word_share
+  params:
+    divisor:
+    - 6
+    - 7
+    - 8
+    - 9
+    quotient:
+    - 2
+    - 9
+- kind: times_more
+  params:
+    k:
+    - 6
+    - 7
+    - 8
+    - 9
+    base:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - Masala yechishda eng muhimi — amalni to‘g‘ri tanlash. Hisoblash ikkinchi o‘rinda.
+  - Bolaga “Bir xil guruhlar bormi? Teng tarqatyapmizmi? “Marta” so‘zi bormi?” degan savollarni bering.
+  teach_child:
+  - minutes: 1–3
+    action: Bitta masalani o‘qing va farzandingiz uni rasm bilan chizsin (doiralar, chiziqlar).
+  - minutes: 4–7
+    action: Rasmga qarab amalni tanlab, hisoblasin; keyin teskari amal bilan tekshirsin.
+  - minutes: 8–10
+    action: 'Bir xil sonlar bilan ikkita masala tuzing: biri ko‘paytirish, biri bo‘lish uchun (masalan, 4, 6, 24).'
+  materials:
+  - qog‘oz va rangli qalam
+  watch_for:
+  - Masalani oxirigacha o‘qimasdan hisoblashga shoshilish

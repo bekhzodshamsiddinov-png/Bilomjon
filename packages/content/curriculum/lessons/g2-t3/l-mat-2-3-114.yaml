@@ -1,0 +1,144 @@
+# Bo‘lish va ko‘paytirish orasidagi bog‘liqlik — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-114
+map_id: mat-2-3-114
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: Bo‘lish va ko‘paytirish orasidagi bog‘liqlik
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: 'Ko‘paytirish va bo‘lish teskari amallar ekanini tushunish: bitta ko‘paytirish tengligidan ikkita bo‘lish tengligini hosil qilish.'
+success_criteria:
+- 'a × b = c dan c : b = a va c : a = b ni yoza oladi.'
+- Bo‘lishni ko‘paytirish bilan tekshiradi.
+- Noma’lum ko‘paytuvchini bo‘lish orqali topadi.
+prior_knowledge:
+- Ko‘paytirish jadvali
+- Bo‘lish ma’nosi
+vocabulary:
+- teskari amal
+- ko‘paytuvchi
+- ko‘paytma
+- bo‘linma
+explanation:
+  intro: 'Ko‘paytirish va bo‘lish — bir oila: biri ikkinchisini tekshiradi.'
+  steps:
+  - '3 ta qatorda 5 tadan olma: 3 × 5 = 15.'
+  - 'Endi 15 ta olmani 3 qatorga bo‘lsak — har qatorda 5 ta: 15 : 3 = 5.'
+  - '15 ta olmani 5 tadan guruhlasak — 3 ta guruh: 15 : 5 = 3.'
+  - 'Bitta ko‘paytirishdan ikkita bo‘lish chiqadi. Bu “sonlar uchligi”: 3, 5, 15.'
+  visual:
+    type: array
+    a: 3
+    b: 5
+    item: olma
+worked_example:
+  prompt: '6 × 4 = 24. Shundan foydalanib 24 : 6 ni toping.'
+  steps:
+  - 24 — ko‘paytma, 6 va 4 — ko‘paytuvchilar.
+  - Ko‘paytmani bitta ko‘paytuvchiga bo‘lsak, ikkinchisi chiqadi.
+  - '24 : 6 = 4.'
+  answer: 4
+misconceptions:
+- code: GAVE_PRODUCT
+  description: Javob o‘rniga ko‘paytmaning o‘zini yozadi.
+  remedy: Uchlikdagi har bir son nima ekanini rangli qalam bilan belgilating.
+- code: SUB_INSTEAD_OF_DIV
+  description: Bo‘lish o‘rniga ayiradi.
+  remedy: Qatorlar rasmida ko‘rsating.
+diagnostic:
+  kind: div_fact
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 9
+practice:
+- kind: mul_div_link
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 9
+  weight: 3
+- kind: missing_factor
+  params:
+    factor:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 10
+  weight: 1
+transfer:
+- kind: missing_factor
+  params:
+    factor:
+    - 6
+    - 7
+    - 8
+    - 9
+    other:
+    - 2
+    - 9
+- kind: word_share
+  params:
+    divisor:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    quotient:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - 'Bitta ko‘paytirish tengligidan ikkita bo‘lish tengligi chiqadi: 3 × 5 = 15 → 15 : 3 = 5 va 15 : 5 = 3.'
+  - Bu bolaga bo‘lishni “yangi jadval yodlamasdan” ko‘paytirish jadvali orqali bajarishga yordam beradi.
+  teach_child:
+  - minutes: 1–3
+    action: 'Uchta kartochka yozing: 3, 5, 15. Farzandingiz ulardan bitta ko‘paytirish va ikkita bo‘lish misoli tuzsin.'
+  - minutes: 4–7
+    action: Yana 2–3 ta uchlik bering (4, 6, 24; 7, 8, 56). Har biridan to‘rtta misol tuzsin.
+  - minutes: 8–10
+    action: Bitta sonni yashiring (masalan, ?, 6, 24) — qolganlaridan topsin.
+  materials:
+  - kichik qog‘oz kartochkalar
+  - qalam
+  watch_for:
+  - Ko‘paytmani ko‘paytuvchi bilan adashtirish

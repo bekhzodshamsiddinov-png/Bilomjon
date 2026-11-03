@@ -1,0 +1,139 @@
+# Mavzu bo‘yicha yakuniy dars: 3, 4, 5 ga ko‘paytirish va bo‘lish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-104y
+map_id: mat-2-3-104y
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: 'Mavzu bo‘yicha yakuniy dars: 3, 4, 5 ga ko‘paytirish va bo‘lish'
+minutes: 15
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: 3, 4, 5 ga ko‘paytirish va bo‘lish hamda “marta ko‘p/kam” masalalarini mustaqil yechish.
+success_criteria:
+- 3, 4, 5 ning jadvalidagi ko‘paytirish va bo‘lish misollarini yechadi.
+- So‘zli masalada kerakli amalni tanlaydi.
+- Javobini teskari amal bilan tekshiradi.
+prior_knowledge:
+- 98–104-darslar
+vocabulary:
+- ko‘paytma
+- bo‘linma
+- marta ko‘p
+- marta kam
+explanation:
+  intro: Bugun o‘rganganlarimizni takrorlaymiz.
+  steps:
+  - 'Teng guruhlar → ko‘paytirish: 4 ta guruh, har birida 3 tadan = 4 × 3.'
+  - 'Teng tarqatish → bo‘lish: 15 tani 5 ga bo‘lsak = 15 : 5.'
+  - “Marta ko‘p” → ko‘paytirish, “marta kam” → bo‘lish.
+  - 'Har doim tekshir: bo‘lishni ko‘paytirish bilan, ko‘paytirishni bo‘lish bilan.'
+  visual:
+    type: array
+    a: 4
+    b: 3
+    item: olma
+worked_example:
+  prompt: 20 ta gulni 4 ta guldonga teng qilib qo‘yishdi. Har bir guldonda nechta gul bor?
+  steps:
+  - 'Teng tarqatish — bo‘lish: 20 : 4.'
+  - '? × 4 = 20 — bu 5.'
+  - 'Javob: har bir guldonda 5 ta gul.'
+  answer: 5
+misconceptions:
+- code: WRONG_DIRECTION
+  description: Ko‘paytirish va bo‘lishni adashtiradi.
+  remedy: 'Masalani rasm bilan chizdiring: guruhlar berilganmi yoki hammasi?'
+- code: ADD_INSTEAD_OF_TIMES
+  description: “Marta” va “ta” iboralarini adashtiradi.
+  remedy: 103–104-darslardagi buyumlar o‘yinini takrorlang.
+diagnostic:
+  kind: table_mixed
+  params:
+    factors:
+    - 3
+    - 4
+    - 5
+    other:
+    - 1
+    - 10
+practice:
+- kind: table_mixed
+  params:
+    factors:
+    - 3
+    - 4
+    - 5
+    other:
+    - 1
+    - 10
+  weight: 2
+- kind: times_more
+  params:
+    k:
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 9
+  weight: 1
+- kind: times_less
+  params:
+    k:
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 9
+  weight: 1
+transfer:
+- kind: word_share
+  params:
+    divisor:
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 10
+- kind: word_groups
+  params:
+    factor:
+    - 3
+    - 4
+    - 5
+    other:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - 'Bu takrorlash darsi: 3, 4, 5 ga ko‘paytirish va bo‘lish, “marta ko‘p/kam” masalalari.'
+  - Qaysi mavzuda xato ko‘p bo‘lsa, o‘sha darsning 10 daqiqalik mashg‘ulotini qaytaring.
+  teach_child:
+  - minutes: 1–3
+    action: 'Bir-biringizga navbat bilan 3, 4, 5 jadvalidan savol bering (masalan, “4 × 3?” yoki “20 : 5?”).'
+  - minutes: 4–7
+    action: 'Uydagi vaziyatdan masala tuzing: “Dasturxonda 4 ta likopcha, har biriga 3 tadan non…”.'
+  - minutes: 8–10
+    action: Farzandingiz sizga masala tuzib bersin — siz ataylab xato javob bering, u xatoni topsin.
+  materials:
+  - qog‘oz va qalam
+  - 'ixtiyoriy: buyumlar'
+  watch_for:
+  - Qaysi jadval (3, 4 yoki 5) qiyinroq ekanligi
+  - So‘zli masalada amalni tanlashdagi ikkilanish

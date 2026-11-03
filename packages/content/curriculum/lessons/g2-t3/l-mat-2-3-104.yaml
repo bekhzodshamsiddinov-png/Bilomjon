@@ -1,0 +1,137 @@
+# Sonni bir necha marta kamaytirish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-104
+map_id: mat-2-3-104
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: Sonni bir necha marta kamaytirish
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: “… marta kam” iborasini bo‘lish bilan bog‘lash va sonni bir necha marta kamaytirishga doir masalalarni yechish.
+success_criteria:
+- “3 marta kam” — teng 3 qismga bo‘lib, bitta qismini olish ekanini tushuntira oladi.
+- “… ta kam” (ayirish) va “… marta kam” (bo‘lish)ni farqlaydi.
+- Natijani ko‘paytirish bilan tekshiradi.
+prior_knowledge:
+- 2, 3, 4, 5 ga bo‘lish
+- “Marta ko‘p” masalalari
+vocabulary:
+- marta kam
+- kamaytirish
+- ta kam
+explanation:
+  intro: “Marta kam” — hammasini teng qismlarga bo‘lib, bitta qismini olamiz.
+  steps:
+  - Savatda 12 ta olma bor. Qutida undan 3 marta kam olma bor.
+  - 12 ta olmani 3 ta teng guruhga ajratamiz — har birida 4 ta.
+  - 'Bitta guruh — qutidagi olmalar: 12 : 3 = 4.'
+  - 'Diqqat: “3 ta kam” bo‘lsa — ayiramiz (12 − 3), “3 marta kam” bo‘lsa — bo‘lamiz (12 : 3).'
+  visual:
+    type: times
+    a: 12
+    b: 3
+    item: olma
+worked_example:
+  prompt: Tokchada 15 ta kitob bor. Qutida undan 5 marta kam kitob bor. Qutida nechta kitob bor?
+  steps:
+  - “5 marta kam” — 15 ni 5 ta teng qismga bo‘lamiz.
+  - '15 : 5 = 3, chunki 3 × 5 = 15.'
+  - 'Javob: qutida 3 ta kitob.'
+  answer: 3
+misconceptions:
+- code: SUB_INSTEAD_OF_TIMES
+  description: “5 marta kam”ni “5 ta kam” deb, 15 − 5 = 10 deb hisoblaydi.
+  remedy: Ikkala iborani buyumlar bilan yonma-yon solishtiring.
+- code: WRONG_DIRECTION
+  description: “Kam” bo‘lsa ham ko‘paytirib yuboradi.
+  remedy: “Kam bo‘lsa — natija kichikroq bo‘lishi kerak” deb tekshirish.
+diagnostic:
+  kind: div_fact
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 5
+practice:
+- kind: times_less
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 9
+  weight: 3
+- kind: div_fact
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 1
+    - 10
+  weight: 1
+transfer:
+- kind: times_less
+  params:
+    k:
+    - 2
+    - 3
+    - 4
+    - 5
+    base:
+    - 2
+    - 10
+- kind: word_share
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - '“… marta kam” — bo‘lish: 12 ning 3 marta kami = 12 : 3 = 4.'
+  - '“… ta kam” — ayirish: 12 dan 3 ta kam = 12 − 3 = 9.'
+  - 'Tekshirish: kichik sonni necha martaga ko‘paytirsak, katta son chiqishi kerak (4 × 3 = 12).'
+  teach_child:
+  - minutes: 1–2
+    action: 12 ta buyumni stolga qo‘ying. “Menda 12 ta. Senda 3 marta kam bo‘lsin” deb, 3 ta teng guruhga ajrattiring.
+  - minutes: 3–5
+    action: 'Bitta guruhni farzandingizga bering — u qancha bo‘lganini aytsin va “12 : 3 = 4” deb yozsin.'
+  - minutes: 6–8
+    action: '“3 ta kam” bilan solishtiring: 12 tadan 3 tasini oling. Qaysi biri ko‘proq qoldi?'
+  - minutes: 9–10
+    action: 'Javobini ko‘paytirish bilan tekshirsin: “4 × 3 = 12”.'
+  materials:
+  - 20 tagacha mayda buyum
+  - qog‘oz va qalam
+  watch_for:
+  - “marta kam” va “ta kam”ni adashtirishi
+  - Teng guruhlarga ajrata olmasligi

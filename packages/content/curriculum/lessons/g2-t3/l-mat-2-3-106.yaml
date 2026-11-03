@@ -1,0 +1,131 @@
+# Sonni 6 ga bo‘lish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-106
+map_id: mat-2-3-106
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: Sonni 6 ga bo‘lish
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: Sonni 6 ga teng bo‘lishni (bo‘linma 1–10) teng tarqatish va 6 ning ko‘paytirish jadvali orqali topa olish.
+success_criteria:
+- Buyumlarni 6 ta teng guruhga tarqatib, bitta guruhdagi sonni topa oladi.
+- 'Bo‘lishni ko‘paytirish bilan tekshiradi: ? × 6 = a.'
+- Yangi so‘zli masalada bo‘lish kerakligini o‘zi aniqlaydi.
+prior_knowledge:
+- 6 ning ko‘paytirish jadvali
+- Teng guruhlar tushunchasi
+- Bo‘lish belgisi (:)
+vocabulary:
+- bo‘linuvchi
+- bo‘luvchi
+- bo‘linma
+- teng bo‘lish
+explanation:
+  intro: Bo‘lish — hammasini teng qismlarga ajratish.
+  steps:
+  - '18 ta olmani 6 ta bolaga teng tarqatamiz: har biriga bittadan beramiz, olmalar tugaguncha.'
+  - 'Har bir bolaga 3 tadan tegdi. Buni 18 : 6 = 3 deb yozamiz.'
+  - 'Tekshiramiz: 3 × 6 = 18. Ko‘paytirish va bo‘lish — bir-biriga teskari amallar.'
+  - 6 ga bo‘lishda 6 ning ko‘paytirish jadvalini eslash yordam beradi.
+  visual:
+    type: share
+    a: 18
+    b: 6
+    item: olma
+worked_example:
+  prompt: 24 ta konfetni 6 ta bolaga teng bo‘lib berishdi. Har bir bolaga nechta konfet tegdi?
+  steps:
+  - 'Hammasi — 24 ta, 6 ta bolaga bo‘linadi: 24 : 6.'
+  - 'Jadvalni eslaymiz: ? × 6 = 24. Bu son — 4.'
+  - 'Javob: har bir bolaga 4 tadan konfet.'
+  answer: 4
+misconceptions:
+- code: SUB_INSTEAD_OF_DIV
+  description: '24 : 6 o‘rniga 24 − 6 = 18 deb hisoblaydi.'
+  remedy: 'Buyumlarni haqiqatan tarqatib ko‘rsating: har bir guruhga bittadan.'
+- code: MUL_INSTEAD_OF_DIV
+  description: Bo‘lish o‘rniga ko‘paytiradi — natija kattalashib ketadi.
+  remedy: “Bo‘lganda har bir qism hammasidan kichik bo‘ladi” degan qoidani misolda ko‘rsating.
+- code: COUNTING_SLIP
+  description: Tarqatishda yoki sanashda bittaga adashadi.
+  remedy: Javobni ko‘paytirish bilan tekshirish odatini shakllantiring.
+diagnostic:
+  kind: mul_fact
+  params:
+    factor: 6
+    other:
+    - 2
+    - 6
+practice:
+- kind: div_fact
+  params:
+    divisor: 6
+    quotient:
+    - 1
+    - 10
+  weight: 2
+- kind: word_share
+  params:
+    divisor: 6
+    quotient:
+    - 2
+    - 9
+  weight: 1
+- kind: missing_factor
+  params:
+    factor: 6
+    other:
+    - 1
+    - 10
+  weight: 1
+transfer:
+- kind: word_share
+  params:
+    divisor: 6
+    quotient:
+    - 2
+    - 10
+- kind: times_less
+  params:
+    k: 6
+    base:
+    - 2
+    - 9
+parent_guide:
+  teach_me:
+  - 6 ga bo‘lish — hammasini 6 ta teng qismga ajratish va bitta qismda nechta borligini topish.
+  - 'Bola avval buyumlarni tarqatib tushunsin, keyin jadvalga o‘tsin: 24 : 6 — “qaysi sonni 6 ga ko‘paytirsam 24 bo‘ladi?”'
+  - Javobni ko‘paytirish bilan tekshirishni odat qiling — bu xatolarni o‘zi topishga o‘rgatadi.
+  teach_child:
+  - minutes: 1–2
+    action: 12 ta mayda buyum va 6 ta likopcha (yoki qog‘ozdan doira) tayyorlang.
+  - minutes: 3–5
+    action: Farzandingiz buyumlarni likopchalarga bittadan tarqatsin va har birida nechta bo‘lganini aytsin.
+  - minutes: 6–8
+    action: 'Buyumlar sonini 18, keyin 24 taga oshiring. Har safar natijani “… : 6 = …” deb yozsin.'
+  - minutes: 9–10
+    action: 'Javobini ko‘paytirish bilan tekshirsin: “… × 6 = …”.'
+  materials:
+  - 24 tagacha mayda buyum
+  - 6 ta likopcha yoki qog‘oz doira
+  - qog‘oz va qalam
+  watch_for:
+  - Bo‘lish o‘rniga ayirishi
+  - Tarqatishda guruhlar teng bo‘lmay qolishi
+  - Javobni tekshirmasligi

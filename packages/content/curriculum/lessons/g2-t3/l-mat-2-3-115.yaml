@@ -1,0 +1,132 @@
+# Bo‘luvchilar va karralilar — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-115
+map_id: mat-2-3-115
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: Bo‘luvchilar va karralilar
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: Son berilgan songa qoldiqsiz bo‘linishini tekshirish; bo‘luvchi va karrali tushunchalarini oddiy misollarda farqlash.
+success_criteria:
+- Son berilgan songa qoldiqsiz bo‘linishini teng guruhlar yoki jadval orqali tekshiradi.
+- '“3 ga karrali sonlar” qatorini davom ettira oladi: 3, 6, 9, 12 …'
+- Javobini izohlaydi (ortib qolgan bormi?).
+prior_knowledge:
+- Ko‘paytirish jadvali
+- Teng bo‘lish
+vocabulary:
+- bo‘luvchi
+- karrali
+- qoldiqsiz bo‘linadi
+- ortib qoladi
+explanation:
+  intro: Ba’zi sonlar teng guruhlarga bo‘linadi, ba’zilarida esa ortib qoladi.
+  steps:
+  - '12 ta olmani 3 ta guruhga ajratamiz: har birida 4 ta, ortib qolmadi. 12 soni 3 ga qoldiqsiz bo‘linadi.'
+  - 3 — 12 ning bo‘luvchisi. 12 esa 3 ga karrali son.
+  - 13 ta olmani 3 guruhga ajratsak — 4 tadan, 1 ta ortib qoladi. 13 soni 3 ga qoldiqsiz bo‘linmaydi.
+  - '3 ga karrali sonlar — 3 tadan sanaganda chiqadigan sonlar: 3, 6, 9, 12, 15 …'
+  visual:
+    type: share
+    a: 12
+    b: 3
+    item: olma
+worked_example:
+  prompt: 20 soni 4 ga qoldiqsiz bo‘linadimi? 4 tadan nechta guruh chiqadi?
+  steps:
+  - '4 tadan sanaymiz: 4, 8, 12, 16, 20 — 20 qatorda bor.'
+  - Demak, 20 soni 4 ga qoldiqsiz bo‘linadi.
+  - '4 tadan 5 ta guruh chiqadi: 20 : 4 = 5.'
+  answer: 5
+misconceptions:
+- code: DIVISIBILITY_GUESS
+  description: Tekshirmasdan, “juft son bo‘lsa bo‘linadi” kabi taxmin qiladi.
+  remedy: Har doim sanash yoki jadval bilan tekshirishni so‘rang.
+diagnostic:
+  kind: div_fact
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 9
+practice:
+- kind: divisor_check
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    number:
+    - 6
+    - 40
+  weight: 3
+- kind: div_fact
+  params:
+    divisor:
+    - 2
+    - 3
+    - 4
+    - 5
+    quotient:
+    - 2
+    - 10
+  weight: 1
+transfer:
+- kind: divisor_check
+  params:
+    divisor:
+    - 6
+    - 7
+    - 8
+    - 9
+    number:
+    - 12
+    - 81
+- kind: divisor_check
+  params:
+    divisor:
+    - 3
+    - 4
+    - 6
+    number:
+    - 10
+    - 60
+parent_guide:
+  teach_me:
+  - 'Agar son teng guruhlarga ortiqchasiz bo‘linsa — “qoldiqsiz bo‘linadi”: 12 : 3 = 4.'
+  - “Bo‘luvchi” — bo‘ladigan son (3), “karrali” — bo‘linadigan son (12). Bu so‘zlarni bola darhol eslab qolmasa ham bo‘ladi — asosiysi, tekshira
+    olishi.
+  teach_child:
+  - minutes: 1–3
+    action: 15 ta buyumni 4 guruhga ajratishga urinib ko‘ring — ortib qoladimi? Keyin 3 guruhga.
+  - minutes: 4–7
+    action: Turli sonlar bilan (12, 14, 16, 18) “2 ga, 3 ga bo‘linadimi?” o‘yinini o‘ynang — har safar buyum bilan tekshirsin.
+  - minutes: 8–10
+    action: 5 tadan sanab, 50 gacha bo‘lgan 5 ga karrali sonlarni yozsin.
+  materials:
+  - 20 tagacha mayda buyum
+  - qog‘oz va qalam
+  watch_for:
+  - Tekshirmasdan taxmin qilish
+  - Ortib qolgan buyumni hisobga olmaslik

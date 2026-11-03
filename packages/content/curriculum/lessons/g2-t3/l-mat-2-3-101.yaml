@@ -1,0 +1,134 @@
+# 5 sonini ko‘paytirish. Sonni 5 ga ko‘paytirish — 2-sinf, 3-chorak. Holat: DRAFT (AI metodist qoralamasi, o'qituvchi tasdiqlamagan)
+id: l-mat-2-3-101
+map_id: mat-2-3-101
+version: 1
+grade: 2
+subject: matematika
+term: 3
+title: 5 sonini ko‘paytirish. Sonni 5 ga ko‘paytirish
+minutes: 12
+status: DRAFT
+source_id: repyova-mat-2-3
+ai_review:
+  by: Claude (AI metodist)
+  at: '2026-11-03'
+  checklist:
+    objective_matches_textbook_topic: true
+    numbers_within_grade_limits: true
+    answers_verified_by_engine: true
+    hints_do_not_reveal_answer: true
+    language_age_appropriate: true
+    no_textbook_text_copied: true
+    parent_guide_household_materials_only: true
+  notes: AI metodist qoralamasi. Nashrdan oldin boshlang'ich sinf o'qituvchisi tasdig'i SHART.
+human_reviews: []
+objective: Sonni 5 ga ko‘paytirishni (1 dan 10 gacha) teng guruhlar orqali tushunish va 5 ning ko‘paytirish jadvalini qo‘llay olish.
+success_criteria:
+- 5 tadan sanab borib, ko‘paytmani topa oladi.
+- a × 5 ifodasini teng guruhlar rasmi bilan tushuntira oladi.
+- 'O‘rin almashtirishdan foydalanadi: 5 × a = a × 5.'
+- Yangi so‘zli masalada ko‘paytirish kerakligini o‘zi aniqlaydi.
+prior_knowledge:
+- 100 ichida qo‘shish
+- Ko‘paytirish — bir xil qo‘shiluvchilar yig‘indisi
+- 4 gacha bo‘lgan sonlarning ko‘paytirish jadvali
+vocabulary:
+- ko‘paytuvchi
+- ko‘paytma
+- teng guruh
+- 5 tadan
+explanation:
+  intro: Ko‘paytirish — bir xil sonlarni tez qo‘shish usuli.
+  steps:
+  - 3 ta likopchani tasavvur qil, har birida 5 tadan olma bor.
+  - 5 + 5 + 5 = 15. Buni qisqacha 3 × 5 = 15 deb yozamiz.
+  - '5 tadan sanab boramiz: 5, 10, 15, 20, 25 … — bu 5 ning ko‘paytirish jadvali.'
+  - 'Ko‘paytuvchilar o‘rnini almashtirsak, natija o‘zgarmaydi: 3 × 5 = 5 × 3.'
+  visual:
+    type: groups
+    a: 3
+    b: 5
+    item: olma
+worked_example:
+  prompt: 4 ta qutining har birida 5 tadan qalam bor. Hammasi bo‘lib nechta qalam bor?
+  steps:
+  - Guruhlar soni — 4 ta, har birida 5 tadan.
+  - '4 × 5 ni topamiz: 5 + 5 + 5 + 5 = 20.'
+  - 'Javob: 20 ta qalam.'
+  answer: 20
+misconceptions:
+- code: ADD_INSTEAD_OF_MUL
+  description: 4 × 5 o‘rniga 4 + 5 = 9 deb hisoblaydi.
+  remedy: Guruhlarni rasmda chizdirib, har birini qo‘shib chiqishni so‘rang.
+- code: GROUP_COUNT_OFF
+  description: 5 tadan sanab borishda bitta guruhni tashlab ketadi yoki ortiqcha qo‘shadi.
+  remedy: Har bir qadamda bitta barmoqni bukib sanash.
+- code: COUNTING_SLIP
+  description: Qo‘shishda kichik xato qiladi (±1).
+  remedy: Javobni boshqa usulda (o‘rin almashtirib) tekshirish.
+diagnostic:
+  kind: mul_fact
+  params:
+    factor:
+    - 2
+    - 3
+    - 4
+    other:
+    - 2
+    - 6
+practice:
+- kind: mul_fact
+  params:
+    factor: 5
+    other:
+    - 1
+    - 10
+  weight: 2
+- kind: word_groups
+  params:
+    factor: 5
+    other:
+    - 2
+    - 9
+  weight: 1
+- kind: missing_factor
+  params:
+    factor: 5
+    other:
+    - 1
+    - 10
+  weight: 1
+transfer:
+- kind: word_groups
+  params:
+    factor: 5
+    other:
+    - 2
+    - 10
+- kind: missing_factor
+  params:
+    factor: 5
+    other:
+    - 2
+    - 10
+parent_guide:
+  teach_me:
+  - 5 ga ko‘paytirish — 5 tadan bo‘lgan bir xil guruhlarni sanash. Masalan, 3 × 5 — 3 ta guruh, har birida 5 tadan.
+  - Jadvalni yodlatishdan oldin bola guruhlarni ko‘rib, sanab tushunishi muhim — shunda yodlash oson va mustahkam bo‘ladi.
+  - 'Tekshirish usuli: ko‘paytmani 5 tadan sanab chiqing yoki ko‘paytuvchilar o‘rnini almashtirib ko‘ring.'
+  teach_child:
+  - minutes: 1–2
+    action: Uydagi mayda buyumlardan (tugma, loviya, makaron) 5 tadan qilib 3 ta guruh tuzing.
+  - minutes: 3–5
+    action: Farzandingiz guruhlarni qo‘shib sanasin, keyin “3 × 5” deb yozsin.
+  - minutes: 6–8
+    action: Guruhlar sonini 4, 5, 6 taga o‘zgartiring. Har safar avval taxmin qilsin, keyin sanab tekshirsin.
+  - minutes: 9–10
+    action: 'O‘zi bitta masala o‘ylab topib, yechib bersin: “… ta likopchada 5 tadan …”.'
+  materials:
+  - 30 tagacha mayda buyum (tugma, loviya yoki makaron)
+  - qog‘oz va qalam
+  watch_for:
+  - Qo‘shish va ko‘paytirishni adashtirishi
+  - Sanashda shoshilishi
+  - Jadvalni tushunmasdan yodlashga urinishi
