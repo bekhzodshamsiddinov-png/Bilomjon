@@ -30,3 +30,9 @@ _Oxirgi yangilanish: 2026-11-03 (v0.3.0, 1-bosqich)_
 
 ## Keyingi qadamlar
 `docs/PROFESSIONAL_PLAN.md` B-bo'limiga qarang.
+
+## Deploy
+- **Web (Vercel, production):** https://bilimjon-bekhzod2.vercel.app — `main` ga har push avtomatik deploy (Vercel ↔ GitHub ulanishi Vercel panelida tasdiqlanishi kerak bo'lishi mumkin).
+- **API:** `https://bilimjon-bekhzod2.vercel.app/api/health`
+- Vercel muhit o'zgaruvchilari: `EXPO_PUBLIC_DEMO_CONTENT=true`, `DEMO_CONTENT=true` (sinov versiyasi). `TUTOR_SESSION_SECRET` hali qo'yilmagan — qo'yilmaguncha server sessiyalari funksiya qayta ishga tushganda yangilanadi (ilova oflayn dvigateldan foydalangani uchun bunga bog'liq emas). Vercel panelida 32+ belgili tasodifiy qiymat bilan qo'shing.
+- Preview deploylar Vercel Authentication bilan himoyalangan; production — ochiq (namuna ma'lumotlar, shaxsiy ma'lumot yo'q).
